@@ -1,0 +1,373 @@
+section .data
+
+    ; ABOUTME ASCII 
+
+        aboutme1 db ".          ____   ____  _    _ _______   __  __ ______ ", 10
+        aboutme1Len equ $ - aboutme1
+
+        aboutme2 db "     /\   |  _ \ / __ \| |  | |__   __| |  \/  |  ____|", 10
+        aboutme2Len equ $ - aboutme2
+
+        aboutme3 db "    /  \  | |_) | |  | | |  | |  | |    | \  / | |__   ", 10
+        aboutme3Len equ $ - aboutme3
+
+        aboutme4 db "   / /\ \ |  _ <| |  | | |  | |  | |    | |\/| |  __|  ", 10
+        aboutme4Len equ $ - aboutme4
+
+        aboutme5 db "  / ____ \| |_) | |__| | |__| |  | |    | |  | | |____ ", 10
+        aboutme5Len equ $ - aboutme5
+
+        aboutme6 db " /_/    \_\____/ \____/ \____/   |_|    |_|  |_|______|", 10
+        aboutme6Len equ $ - aboutme6
+    
+    ; INFORMATION W/ HEART
+
+        infoh1 db "Name: Kirsten Chloe P. Nueva", 9, 9, "    _--— _         _ —--_", 10
+        infoh1Len equ $ - infoh1
+
+        infoh2 db "Email: kpnueva@fit.edu.ph", 9, 9, "    /          \     /          \", 10
+        infoh2Len equ $ - infoh2
+        
+        infoh3 db "Github: 10nware", 9, 9, 9, 9, 9, "   /              V              \", 10
+        infoh3Len equ $ - infoh3
+
+        infoh4 db "University: Far Eastern University", " \   +                        /", 10
+        infoh4Len equ $ - infoh4
+
+        infoh5 db "Course: BSCSSE", 9, 9, 9, 9, 9, "     \     +                  /", 10
+        infoh5Len equ $ - infoh5
+
+        infoh6 db "Year Level: 2nd Year", 9, 9, 9, "       \       		        /", 10
+        infoh6Len equ $ - infoh6
+
+        infoh7 db "Section: TN24", 9, 9, 9, 9, 9, "          \               /", 10
+        infoh7Len equ $ - infoh7
+
+        infoh8 db 9, 9, 9, 9, 9, 9, 9, 9, "              \       /", 10
+        infoh8Len equ $ - infoh8
+
+        infoh9 db 9, 9, 9, 9, 9, 9, 9, 9, "                 \  /", 10
+        infoh9Len equ $ - infoh9
+
+        infoh10 db 9, 9, 9, 9, 9, 9, 9, 9, "                  V", 10
+        infoh10Len equ $ - infoh10
+
+    ; MY FIRSTS
+
+        first1 db "  ╱|、", 9, 9, 9, "First big achievement: I had a high score in my test exam.", 10
+        first1Len equ $ - first1
+
+        first2 db "(˚ˎ 。7  ", 9, 9, "First wish I ever took: I wish to be happy.", 10
+        first2Len equ $ - first2
+
+        first3 db " |、˜〵    ", 9, 9, "First time I left completely happy: Eating at KFC.", 10
+        first3Len equ $ - first3
+        
+        first4 db "じしˍ,)ノ", 9, 9, 10
+        first4Len equ $ - first4
+
+    ; MY FAVES
+        fav1 db 10, "▄▄▄▄  ▄   ▄     ▗▞▀▀▘▗▞▀▜▌▄   ▄ ▗▞▀▚▖ ▄▄▄ ", 9, "Color/s: Black, Purple, Green", 10
+        fav1Len equ $ - fav1
+
+        fav2 db "█ █ █ █   █     ▐▌   ▝▚▄▟▌█   █ ▐▛▀▀▘▀▄▄  ", 9, "Perfume: Eu La Papier", 10
+        fav2Len equ $ - fav2
+        
+        fav3 db "█   █  ▀▀▀█     ▐▛▀▘       ▀▄▀  ▝▚▄▄▖▄▄▄▀ ", 9, "Song: i was all over her - salvia palth", 10
+        fav3Len equ $ - fav3
+
+        fav4 db "      ▄   █     ▐▌                        ", 9, "Food: Sushi, Fried Chicken, Pasta", 10
+        fav4Len equ $ - fav4
+
+        fav5 db "       ▀▀▀                                ", 10, ".𖥔 ݁ ˖   ✦    ‧₊˚ ⋅.𖥔 ݁ ˖   ✦    ‧₊˚ ⋅.𖥔 ݁ ˖   ✦    ‧₊˚ ⋅", 10
+        fav5Len equ $ - fav5
+    
+    ; HOBBIES
+
+        hob1 db 10, "Weekend activity: Drawing", 9, "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠", 10
+        hob1Len equ $ - hob1
+
+        hob2 db "TV Show: Doctor Who", 9, 9, 9, "⠀⠀⠀⠀⠀⠀⠀⢡⠀⠀⠀⠀⠀⢀⠇", 10
+        hob2Len equ $ - hob2
+
+        hob3 db "Movie: Project Hail Mary", 9,"⠀⠀⣀⠀⠀⠀⠀⠀⢱⡀⠀⠀⠀⡜", 10
+        hob3Len equ $ - hob3
+
+        hob4 db "Hobby: Art", 9, 9, 9, 9, 9, "⠀⠀⠈⠳⣄⡀⠀⠀⠀⠓⠀⠀⠀⠃⠀⠀⠀⡔⠁", 10
+        hob4Len equ $ - hob4
+
+        hob5 db "Celebs: David Tennant", 9, 9, "⠀⠀⠀⠀⠀⠉⠃⠀⢀⣠⠤⠤⣄⠀⠀⠀⠁⠀", 10
+        hob5Len equ $ - hob5
+
+        hob6 db "Role Model: Phil Lester", 9, 9, "⠀⠀⠀⠀⠀⠀⠀⢀⡎⠁⢀⡀⠀⠀⢱⠉⢧⠀⠀⠀⠀⠀⠀⣀⡤⠄", 10
+        hob6Len equ $ - hob6
+
+        hob7 db "Author: Daniel Howell", 9, 9, "⠈⠑⠒⠦⠤⠀⠀⢸⠀⠀⠀⠳⠤⠞⠁⠀⣸⠀⠀⠐⠚⠉⠉⠀", 10
+        hob7Len equ $ - hob7
+
+        hob8 db "Artist: Ethel Cain", 9, 9, 9, "⠀⠀⠀⠀⠀⠀⠀⠀⢧⣀⠀⠀⠀⠀⣠⠞⠁", 10
+        hob8Len equ $ - hob8
+        
+        hob9 db "Ambition: To be happy.", 9, 9, "⠀⠀⠀⠀⡠⠋⠀⠀⠀⠀⠉⠉⠉⠉⠀⠀⠀⢤⡀⠀", 10
+        hob9Len equ $ - hob9
+
+        hob10 db 9, 9, 9, 9, 9, 9, "⠀⠀⡠⠊⠀⠀⠀⠀⠀⠀⠀⠀⡀⠀⠀⠀⠀⠀⠈⢳⠀", 10
+        hob10Len equ $ - hob10
+
+        hob11 db 9, 9, 9, 9, 9, 9, "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡇⠀⠀⠀⠀⠀⠀⠀⠙⠄", 10
+        hob11Len equ $ - hob11
+
+        hob12 db 9, 9, 9, 9, 9, 9, "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡇⠀⠀⠀⠀⠀⠀⠀", 10
+        hob12Len equ $ - hob12
+
+        hob13 db 9, 9, 9, 9, 9, 9, "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠁⠀", 10
+        hob13Len equ $ - hob13
+
+    ; MOTTO
+        mot1 db "┊         ┊       ┊   ┊    ┊        ┊", 10
+        mot1Len equ $ - mot1
+
+        mot2 db "┊         ┊       ┊   ┊   ˚★⋆｡˚  ⋆", 10
+        mot2Len equ $ - mot2
+
+        mot3 db "┊         ┊       ┊   ⋆", 9, "never give up", 10
+        mot3Len equ $ - mot3
+
+        mot4 db "┊         ┊       ★⋆", 9, "on your", 10
+        mot4Len equ $ - mot4
+
+        mot5 db "┊ ◦", 9, 9, 9, 9, 9, 9, "dreams", 10
+        mot5Len equ $ - mot5
+
+        mot6 db "★⋆      ┊ .  ˚", 10
+        mot6Len equ $ -  mot6
+
+        mot7 db "           ˚★", 10
+        mot7Len equ $ - mot7
+
+
+section .text
+
+    global _start
+
+_start:
+
+    ; -------------------------------
+    ; Print ABOUTME ASCII 
+    ; -------------------------------
+        mov ecx, aboutme1
+        mov edx, aboutme1Len
+        call printString
+
+        mov ecx, aboutme2
+        mov edx, aboutme2Len
+        call printString
+
+        mov ecx, aboutme3
+        mov edx, aboutme3Len
+        call printString
+
+        mov ecx, aboutme4
+        mov edx, aboutme4Len
+        call printString
+
+        mov ecx, aboutme5
+        mov edx, aboutme5Len
+        call printString
+
+        mov ecx, aboutme6
+        mov edx, aboutme6Len
+        call printString
+
+    ; -------------------------------
+    ; Print INFO w/ HEART
+    ; -------------------------------
+        mov ecx, infoh1
+        mov edx, infoh1Len
+        call printString
+
+        mov ecx, infoh2
+        mov edx, infoh2Len
+        call printString
+
+        mov ecx, infoh3
+        mov edx, infoh3Len
+        call printString
+
+        mov ecx, infoh4
+        mov edx, infoh4Len
+        call printString
+
+        mov ecx, infoh5
+        mov edx, infoh5Len
+        call printString
+
+        mov ecx, infoh6
+        mov edx, infoh6Len
+        call printString
+
+        mov ecx, infoh7
+        mov edx, infoh7Len
+        call printString
+
+        mov ecx, infoh8
+        mov edx, infoh8Len
+        call printString
+
+        mov ecx, infoh9
+        mov edx, infoh9Len
+        call printString
+
+        mov ecx, infoh10
+        mov edx, infoh10Len
+        call printString
+
+    ; -------------------------------
+    ; Print MY FIRSTS
+    ; -------------------------------
+        mov ecx, first1
+        mov edx, first1Len
+        call printString
+
+        mov ecx, first2
+        mov edx, first2Len
+        call printString
+
+        mov ecx, first3
+        mov edx, first3Len
+        call printString
+
+        mov ecx, first4
+        mov edx, first4Len
+        call printString
+
+    ; -------------------------------
+    ; Print MY FAVES
+    ; -------------------------------
+        mov ecx, fav1
+        mov edx, fav1Len
+        call printString
+
+        mov ecx, fav2
+        mov edx, fav2Len
+        call printString
+
+        mov ecx, fav3
+        mov edx, fav3Len
+        call printString
+
+        mov ecx, fav4
+        mov edx, fav4Len
+        call printString
+
+        mov ecx, fav5
+        mov edx, fav5Len
+        call printString
+
+    ; -------------------------------
+    ; Print HOBBIES
+    ; -------------------------------
+        mov ecx, hob1
+        mov edx, hob1Len
+        call printString
+
+        mov ecx, hob2
+        mov edx, hob2Len
+        call printString
+
+        mov ecx, hob3
+        mov edx, hob3Len
+        call printString
+
+        mov ecx, hob4
+        mov edx, hob4Len
+        call printString
+
+        mov ecx, hob5
+        mov edx, hob5Len
+        call printString
+
+        mov ecx, hob6
+        mov edx, hob6Len
+        call printString
+
+        mov ecx, hob7
+        mov edx, hob7Len
+        call printString
+
+        mov ecx, hob8
+        mov edx, hob8Len
+        call printString
+
+        mov ecx, hob9
+        mov edx, hob9Len
+        call printString
+
+        mov ecx, hob10
+        mov edx, hob10Len
+        call printString
+
+        mov ecx, hob11
+        mov edx, hob11Len
+        call printString
+
+        mov ecx, hob12
+        mov edx, hob12Len
+        call printString
+
+        mov ecx, hob13
+        mov edx, hob13Len
+        call printString
+
+    ; -------------------------------
+    ; Print MOTTO
+    ; -------------------------------
+        mov ecx, mot1
+        mov edx, mot1Len
+        call printString
+
+        mov ecx, mot2
+        mov edx, mot2Len
+        call printString
+
+        mov ecx, mot3
+        mov edx, mot3Len
+        call printString
+
+        mov ecx, mot4
+        mov edx, mot4Len
+        call printString
+
+        mov ecx, mot5
+        mov edx, mot5Len
+        call printString
+
+        mov ecx, mot6
+        mov edx, mot6Len
+        call printString
+
+        mov ecx, mot7
+        mov edx, mot7Len
+        call printString
+
+
+    ; -------------------------------
+    ; Exit program
+    ; -------------------------------
+        mov eax, 1          ; sys_exit
+        mov ebx, 0
+        int 0x80
+
+
+    ; ==========================================
+    ; printString
+    ; ECX = address of string
+    ; EDX = string length
+    ; ==========================================
+    printString:
+
+        mov eax, 4          ; sys_write
+        mov ebx, 1          ; stdout
+        int 0x80
+
+        ret
